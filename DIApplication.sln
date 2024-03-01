@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIApplication", "DIApplication.csproj", "{0599712A-55DD-4979-B51A-D85C58DBD4AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A8AE77C5-3640-4633-A8DB-620A776BEEFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0599712A-55DD-4979-B51A-D85C58DBD4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0599712A-55DD-4979-B51A-D85C58DBD4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0599712A-55DD-4979-B51A-D85C58DBD4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AE77C5-3640-4633-A8DB-620A776BEEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AE77C5-3640-4633-A8DB-620A776BEEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AE77C5-3640-4633-A8DB-620A776BEEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AE77C5-3640-4633-A8DB-620A776BEEFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using DIApplication.Models;
-
+using Domain;
 namespace DIApplication.Controllers;
 
 public class HomeController : Controller

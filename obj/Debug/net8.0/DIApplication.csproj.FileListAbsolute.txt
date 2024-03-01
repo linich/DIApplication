@@ -7,8 +7,6 @@
 /Users/maksim/Documents/Projects/DIApplication/bin/Debug/net8.0/DIApplication.dll
 /Users/maksim/Documents/Projects/DIApplication/bin/Debug/net8.0/DIApplication.pdb
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.GeneratedMSBuildEditorConfig.editorconfig
-/Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.AssemblyInfoInputs.cache
-/Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.AssemblyInfo.cs
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.csproj.CoreCompileInputs.cache
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.MvcApplicationPartsAssemblyInfo.cache
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.RazorAssemblyInfo.cache
@@ -28,3 +26,6 @@
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.pdb
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.genruntimeconfig.cache
 /Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/ref/DIApplication.dll
+/Users/maksim/Documents/Projects/DIApplication/obj/Debug/net8.0/DIApplication.sourcelink.json
+/Users/maksim/Documents/Projects/DIApplication/bin/Debug/net8.0/Domain/obj/Domain.csproj.nuget.dgspec.json
+/Users/maksim/Documents/Projects/DIApplication/bin/Debug/net8.0/Domain/obj/project.assets.json

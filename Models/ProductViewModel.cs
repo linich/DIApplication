@@ -1,4 +1,5 @@
 using System.Globalization;
+using Domain;
 
 public class ProductViewModel {
     private static readonly CultureInfo PriceCulture = new CultureInfo("en-US");

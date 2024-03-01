@@ -1,0 +1,11 @@
+﻿@model FeaturedProductViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Featured Products</h1>
+    @foreach (ProductViewModel product in this.Model.Products) {
+        <div>@product.SummuryText</div>
+    }
+</div>

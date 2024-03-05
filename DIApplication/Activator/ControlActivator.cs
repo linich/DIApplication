@@ -14,7 +14,7 @@ public class ControlActivator : IControllerActivator
     {
         Type type = context.ActionDescriptor.ControllerTypeInfo.AsType();
         if (type == typeof(HomeController)) {
-            var productService = new ProductService(new ProductRepository(), new AspNetUserContextAdapter());
+            var productService = new ProductService(new ProductRepository(), new AspNetUserContextAdapter(), new CurrencyConverter());
             return new HomeController(productService);
         } else {
             throw new Exception("Unknown controller");

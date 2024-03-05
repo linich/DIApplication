@@ -1,12 +1,15 @@
 namespace Domain {
     public class Product {
         public string Name { get;set; }
-        public decimal UnitPrice { get;set; }
+        public Money UnitPrice { get;set; }
         public bool IsFeatured { get; set; }
-        public Product(string name, decimal unitPrice, bool isFeatured) {
+        public Product(string name, Money unitPrice, bool isFeatured) {
             Name = name;
-            UnitPrice = unitPrice;
+            UnitPrice = unitPrice ?? throw new ArgumentNullException(nameof(unitPrice));
             IsFeatured = isFeatured;
+        }
+        public Product WithUnitPrice(Money unitPrice) {
+            return new (Name, unitPrice, IsFeatured);
         }
         public DiscountedProduct ApplyDiscountFor( IUserContext user) {
             bool prefered = user.IsUserInRole(Role.PreferedCustomer);

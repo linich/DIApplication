@@ -1,3 +1,5 @@
+namespace DIApplication.Models;
+
 using System.Globalization;
 using Domain;
 
